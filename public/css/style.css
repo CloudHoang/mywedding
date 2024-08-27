@@ -1727,7 +1727,7 @@ form label {
   color: #fff;
 }
 
-.btn-warning {
+.btn-`ning {
   background: #f0ad4e;
   color: #fff;
   border: 2px solid #f0ad4e;
@@ -1841,3 +1841,18 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.wrapper{
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  height: 2000px;
+}
+
+.wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
